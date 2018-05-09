@@ -1,0 +1,76 @@
+.info{
+  left: 0;
+  right: 0;
+  position: fixed;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+}
+
+body {
+    background-color: lightblue;
+}
+
+.pageTitle
+{
+  text-align: center;
+  font-family: 'Titan One';
+}
+.titleFont
+{
+  font-size: 25px
+}
+
+.page {
+  max-width:700px;
+}
+
+.descriptin {
+  display:none;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+li .list-group-item {
+  position: relative;
+}
+.fa {
+  position: absolute;
+  right:10px;
+  top:10px;
+  color:blue;
+  font-size:30px!important;
+}
+
+.fa.fa-minus-circle{
+  color:red;
+}
+.fa.fa-television{
+  position: absolute;
+  left:130px;
+  top:10px;
+  color:black;
+  font-size:30px!important;
+}
+.fa.fa-star{
+  position: absolute;
+  left:200px;
+  top:10px;
+  color:green;
+  font-size:30px!important;
+}
+
+p span{
+  font-weight:bold;
+}
+
